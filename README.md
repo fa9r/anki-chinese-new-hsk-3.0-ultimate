@@ -17,9 +17,9 @@
 - **HSK 5:** [https://ankiweb.net/shared/info/1660936380](https://ankiweb.net/shared/info/1660936380)
 - **HSK 6:** [https://ankiweb.net/shared/info/2093332568](https://ankiweb.net/shared/info/2093332568)
 - **HSK 7-9:**
-  - Part 1: [https://ankiweb.net/shared/info/1145295418](https://ankiweb.net/shared/info/1145295418)
-  - Part 2: [https://ankiweb.net/shared/info/501450951](https://ankiweb.net/shared/info/501450951)
-  - Part 3: [https://ankiweb.net/shared/info/739669936](https://ankiweb.net/shared/info/739669936)
+  - Part 1/3: [https://ankiweb.net/shared/info/1145295418](https://ankiweb.net/shared/info/1145295418)
+  - Part 2/3: [https://ankiweb.net/shared/info/501450951](https://ankiweb.net/shared/info/501450951)
+  - Part 3/3: [https://ankiweb.net/shared/info/739669936](https://ankiweb.net/shared/info/739669936)
 
 ## Acknowledgements
 
@@ -35,8 +35,8 @@ This project builds on several excellent resources:
 
 ### Improvements vs. Last HSK 3.0 2026
 
-- **Better Media**: Replaced the examples and audio of 2,683 words from Last HSK with better example sentences and audio recordings from the HSK-JK decks. Also generated 123 additional images using OpenAI GPT-Image-2.5 Flare. All 11,000 words now have an example sentence, audio, and an image.
-- **Cleaner Hanzi**: 402 entries with look-alike radical characters now use the standard characters (e.g. ⼋ → 八), so search and matching work properly for all words. Labels like `称1` or `批 (verb)` were also cleaned up.
+- **Better Media**: Replaced the examples and audio of 2,683 words with the better example sentences and audio recordings from the HSK-JK decks. Also generated 351 additional images using OpenAI GPT-Image-2.5 Flare for words that had missing or corrupted images. All 11,000 words now have an example sentence, audio, and an image.
+- **Cleaner Hanzi**: 402 entries with look-alike radical characters now use the standard characters (e.g. ⼋ → 八), so search and matching work properly for all words. Labels like `称1` or `批 (verb)` were also cleaned up, and HTML artifacts like `<br>` were removed as well.
 - **Fixed Pinyin**: Wrong pinyin in the `Pinyin` and `SentencePinyin` fields was fixed in 1,003 places, e.g. 看 kān → kàn, 银行 yín xíng → yín háng, and in example sentences, e.g. 了 liǎo → le. Also changed the pinyin of 102 words from tone-sandhi to dictionary-form spelling (e.g. 一下 yíxià → yīxià), and 218 polyphones now also include alternative pinyin (e.g. 只 zhī / zhǐ).
 - **Expanded Meaning**: The `Meaning` field of 7,174 cards was expanded to also include alternative meanings and homographs, e.g. 只 (zhī / zhǐ): "classifier for animals; one of a pair; single / only; merely; just". Under HSK 3.0, several Hanzi appear multiple times; each corresponding card now leads with its own reading and lists other homographs second (e.g. 为 wéi → wéi / wèi).
 - **Cleaner Note Style**: Note types use the cleaner format from the HSK-JK decks (especially helpful for mobile users!).
